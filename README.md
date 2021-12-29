@@ -1,0 +1,1 @@
+The project will be used to practice some basic elements of html by creating a static recipe site.
