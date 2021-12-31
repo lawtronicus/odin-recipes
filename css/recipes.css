@@ -1,8 +1,9 @@
 body { background-color: white}
 
 #old-fashioned-img {
-    width: 25%;
-    height: auto;
+    width: 350px;
+    height: 248px;
+    object-fit: cover;
 }
 
 #whiskey-sour-img {
