@@ -1,14 +1,30 @@
 body { background-color: white}
 
+#sour-div {
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    overflow: hidden;
+}
+
 #old-fashioned-img {
-    width: 350px;
-    height: 248px;
+    width: 250px;
+    height: 350px;
     object-fit: cover;
+    object-position: 80% 70%;
 }
 
 #whiskey-sour-img {
-    width: 350px; /* width of container */
-    height: 248px; /* height of container */
+    width: 550px; /* width of container */
+    height: 650px; /* height of container */
     object-fit: cover;
-    object-position: 20% 70%; /* try 20px 10px */ 
+    object-position: -155px 180%; /* try 20px 10px */ 
+}
+
+#mint-julep-img {
+    /*border: 4px solid red;*/
+    width: 250px; /* width of container */
+    height: 350px; /* height of container */
+    object-fit: cover;
+    object-position: 50% 70%; /* try 20px 10px */ 
 }
