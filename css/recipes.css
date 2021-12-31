@@ -4,3 +4,10 @@ body { background-color: white}
     width: 25%;
     height: auto;
 }
+
+#whiskey-sour-img {
+    width: 350px; /* width of container */
+    height: 248px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 70%; /* try 20px 10px */ 
+}
