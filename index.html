@@ -5,17 +5,30 @@
         <title>My Recipe Page</title>
         <link rel="stylesheet" href="css/recipes.css">
     </head>
+    <header>
+        <h1 class="logo">Logo</h1>
+        <input type="checkbox" class="nav-toggle" id="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
     <body>
-        <div>
-            <h1>Odin Recipes</h1>
-            <h2>Three go-to whiskey cocktails!</h2>
-            <div class="cocktail-div">
-                <a href="recipes/old-fashioned.html"><img src="images/adam-jaime-dmkmrNptMpw-unsplash.jpg" alt="Old-fashioned" id="old-fashioned-img"></a>
-                <div id="sour-div">
-                <a href="recipes/whiskey-sour.html"><img src="images/ambitious-creative-co-rick-barrett-Hw7hK-kYA-Q-unsplash.jpg" alt="Whiskey Sour" id="whiskey-sour-img"></a>
-                </div>
-                <a href="recipes/mint-julep.html"><img src="images/mint-julep-720x720-primary-5e2063b906384479b345687201992bd0.jpeg" alt="mint julep" id="mint-julep-img"></a>
-                </div>
+        <div class="cocktail-links">
+            <div class="old-fashioned"></div>
+                <p>Old Fashioned</p>
+            <div class="whiskey-sour">
+                <p>Whiskey Sour</p>
+            </div>
+            <div class="mint-julep">
+                <p>Mint Julep</p>
             </div>
         </div>
     </body>
