@@ -18,10 +18,6 @@ body {
     height: 100%;
 }
 
-*, *::before, *::after{
-    box-sizing: border-box;
-}
-
 /* nav styles begin */
 
 header {
@@ -64,7 +60,7 @@ nav a {
     font-size: 1.2rem;
     text-transform: uppercase;
     opacity: 0;
-    transition: opacity 250ms ease-in-out;
+    transition: opacity 150ms ease-in-out;
 }
 
 nav a:hover {
@@ -121,16 +117,11 @@ nav a:hover {
 
 /* nav styles ends */
 
-.white {
-    color: white;
-}
-
-
 /* index buttons styling begins here */
 
-.cocktail-links{
-    display: flex;
-    background: #0a0a10;
+link {
+    position: fixed;
+    font-size: 50px;
     border: 5px solid red;
 }
 
@@ -145,6 +136,8 @@ nav a:hover {
     display: inline-block;
     overflow: hidden;
 }
+
+/* image styling begins here*/
 
 #old-fashioned-img {
     width: 250px;
@@ -168,3 +161,4 @@ nav a:hover {
     object-position: 50% 70%; /* try 20px 10px */ 
 }
 
+/* image styling ends here */
